@@ -49,6 +49,9 @@
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qH9-4c-8EE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcL-7a-eEf">
                                 <rect key="frame" x="193" y="477" width="70" height="70"/>
@@ -59,6 +62,9 @@
                                 <state key="normal" title="9">
                                     <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JWx-vM-gEB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHb-Ug-UHX">
                                 <rect key="frame" x="113" y="477" width="70" height="70"/>
@@ -69,6 +75,9 @@
                                 <state key="normal" title="8">
                                     <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jIA-jg-lgB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgS-jz-E7c">
                                 <rect key="frame" x="193" y="395" width="70" height="70"/>
@@ -79,16 +88,9 @@
                                 <state key="normal" title="6">
                                     <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oX9-A9-DSn">
-                                <rect key="frame" x="193" y="310" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.94025427350000002" green="0.94025427350000002" blue="0.94025427350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <rect key="contentStretch" x="0.94999999999999996" y="0.0" width="1" height="1"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
-                                <state key="normal" title="3">
-                                    <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <connections>
+                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dfj-p3-ecZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chC-Pd-Wup">
                                 <rect key="frame" x="34" y="395" width="70" height="70"/>
@@ -99,6 +101,9 @@
                                 <state key="normal" title="4">
                                     <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wjI-ZI-8ku"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAD-Uy-abb">
                                 <rect key="frame" x="113" y="310" width="70" height="70"/>
@@ -109,6 +114,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZH-cf-k9g"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnD-l5-9B2">
                                 <rect key="frame" x="113" y="395" width="70" height="70"/>
@@ -119,6 +127,9 @@
                                 <state key="normal" title="5">
                                     <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="clx-g1-hW0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gh-ZH-QfW">
                                 <rect key="frame" x="34" y="477" width="70" height="70"/>
@@ -129,6 +140,9 @@
                                 <state key="normal" title="7">
                                     <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xed-xf-Gk0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLc-Ak-dxE">
                                 <rect key="frame" x="34" y="558" width="149" height="70"/>
@@ -139,6 +153,9 @@
                                 <state key="normal" title="0">
                                     <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2A-wb-tM9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYJ-jR-GxX">
                                 <rect key="frame" x="271" y="477" width="70" height="70"/>
@@ -221,10 +238,26 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oX9-A9-DSn">
+                                <rect key="frame" x="193" y="310" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94025427350000002" green="0.94025427350000002" blue="0.94025427350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.94999999999999996" y="0.0" width="1" height="1"/>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="0.53388958461668379" green="0.11125287148289592" blue="0.79748218911917101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c8C-1V-bJF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="display" destination="w0B-83-AfL" id="YPO-XD-3I4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
